@@ -5,6 +5,12 @@
 echo -e "Enter the file name : \c"
 read file_name
 
+# -e for any type of file or dir exist 
+
+# -f if regular file exist
+
+# -d if directory exist
+
 if [ -e $file_name ]
 
 then
