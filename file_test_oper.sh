@@ -11,6 +11,14 @@ read file_name
 
 # -d if directory exist
 
+# -b block specisl file (image bainry music) none readable
+
+# -c character special file readable file
+
+# -s check if empty file
+
+# -rwx if has permission r , w , x
+
 if [ -e $file_name ]
 
 then
