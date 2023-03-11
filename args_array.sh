@@ -10,3 +10,10 @@ echo ${args[0]} ${args[1]} ${args[2]} ${args[-1]}
 
 # note index[0] is not the file name ($0) ! is not like echo $0 
 
+# This would print all args no need to loop haha
+
+echo $@
+
+# This would print the length of array of args
+
+echo $#
